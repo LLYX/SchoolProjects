@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xu.leon.patientdatabasemanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ui.classes.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ui.classes.SubmitHCN"
+            android:label="@string/title_activity_submit_hcn" >
+        </activity>
+        <activity
+            android:name="com.ui.classes.PhysicianActions"
+            android:label="@string/title_activity_physician_actions" >
+        </activity>
+        <activity
+            android:name="com.ui.classes.RegisterPatient"
+            android:label="@string/title_activity_register_patient" >
+        </activity>
+        <activity
+            android:name="com.ui.classes.NewVisit"
+            android:label="@string/title_activity_new_visit" >
+        </activity>
+        <activity
+            android:name="com.ui.classes.CurrentPatient"
+            android:label="@string/title_activity_current_patient" >
+        </activity>
+        <activity
+            android:name="com.ui.classes.UpdatePatient"
+            android:label="@string/title_activity_update_patient" >
+        </activity>
+        <activity
+            android:name="com.ui.classes.SetPrescription"
+            android:label="@string/title_activity_set_prescription" >
+        </activity>
+        <activity
+            android:name="com.ui.classes.PatientHistory"
+            android:label="@string/title_activity_patient_history" >
+        </activity>
+        <activity
+            android:name="com.ui.classes.Waitlist"
+            android:label="@string/title_activity_waitlist" >
+        </activity>
+    </application>
+
+</manifest>
